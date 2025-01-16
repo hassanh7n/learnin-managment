@@ -1,13 +1,15 @@
 import { useState } from "react";
 
 import "./App.css";
-import { Button } from "./components/ui/button";
+import TopPage from "./widgets/TopPage";
+import Landing from "./pages/landing/Landing";
 
 function App() {
   return (
-    <>
-      <Button>Hello</Button>
-    </>
+    <div>
+      <TopPage />
+      <Landing />
+    </div>
   );
 }
 
